@@ -9,8 +9,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dens
 
 # === YAHAN EXACT PATH UPDATE KIYA GAYA HAI ===
 # Screenshot ke anusaar, gesture folders ek aur level andar hain
-DATA_PATH = "dataset/asl_alphabet_train/asl_alphabet_train/" 
-
+DATA_PATH =  "D:/datasett/archive (2)/asl_alphabet_train/asl_alphabet_train/"
 MODEL_NAME = "hand_gesture_model_asl.h5"
 IMG_WIDTH, IMG_HEIGHT = 64, 64
 EPOCHS = 30

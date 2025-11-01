@@ -13,7 +13,7 @@ num_of_classes = 6
 num_of_samples = 500
 
 # Camera shuru karo
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Har gesture ke liye folder banao aur images collect karo
 for i in range(num_of_classes):

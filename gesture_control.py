@@ -25,7 +25,7 @@ last_gesture_time = 0
 # ==============================
 # Main Loop
 # ==============================
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 cap.set(3, frame_w)
 cap.set(4, frame_h)
 
